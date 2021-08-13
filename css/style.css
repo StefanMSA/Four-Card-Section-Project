@@ -22,7 +22,7 @@ p {
     width:300px
   }
   #card-left {
-    width:300px
+    width:300px !important;
   }
   #card-top {
     width:300px
@@ -39,7 +39,7 @@ p {
     }
 
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   body{
     width: 100vw;
     margin: auto;
@@ -54,7 +54,7 @@ p {
   }
   #card-left {
     margin-left: 60px;
-    width:380px
+    width:380px !important;
   }
   #card-top {
     width:380px
@@ -65,4 +65,7 @@ p {
   header > h2 {
     font-size: 32px;
   }
+}
+@media (min-width:500px) {
+
 }
